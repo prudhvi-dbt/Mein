@@ -1,5 +1,7 @@
 {{config(materialized='table',
-        transient='false')}}
+         schema='test_model')
+          
+           }}
 
 with customers as (
   select

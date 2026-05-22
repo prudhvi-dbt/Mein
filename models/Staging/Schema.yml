@@ -7,3 +7,4 @@ sources:
          - name: Raw_Customer
 
          - name: raw_orders
+         - name: customers

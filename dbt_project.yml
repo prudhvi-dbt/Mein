@@ -41,4 +41,9 @@ models:
     example:
       +materialized: table
     Staging:
-      +materialized: table
+      +materialized: table,
+      +schema : model_schema
+
+snapshots:
+   +target_schema: snapshots
+  
